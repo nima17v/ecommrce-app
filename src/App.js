@@ -1,10 +1,12 @@
 import React from "react";
-import HomePage from "./homepage.component";
+import "./App.css";
+import HomePageMenu from "./pages/homepage/menu-items/homepage-menu";
+
 
 function App() {
   return (
     <div>
-      <HomePage />
+      <HomePageMenu />
     </div>
   );
 };
