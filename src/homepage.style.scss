@@ -1,0 +1,46 @@
+.homepage-container {
+    width : 95%;
+    margin: 40px auto;
+
+    .menu-items {
+        display        : flex;
+        justify-content: space-between;
+        align-items    : center;
+        flex-wrap      : wrap;
+
+        .item {
+            margin         : 5px 0;
+            background     : yellowgreen;
+            padding        : 10px;
+            height         : 240px;
+            width          : 395px;
+            display        : flex;
+            justify-content: center;
+            align-items    : center;
+            text-align     : center;
+
+            &:nth-child(n + 4) {
+                height: 350px;
+                width : 607px;
+            }
+
+            .content {
+                background: rgba(0, 0, 0, .5);
+                color     : #fff;
+                padding   : 10px 30px;
+
+                h1 {
+                    margin        : 5px 0;
+                    font-size     : 22px;
+                    letter-spacing: 1px;
+                }
+
+                span {
+                    display  : block;
+                    margin   : 5px 0;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
